@@ -18,8 +18,8 @@ function InteractionForm() {
     <div className="p-8 max-w-3xl mx-auto">
       {/* Section Header */}
       <div className="mb-8">
-        <h1 className="text-xl font-bold text-slate-900 tracking-tight">Log HCP Interaction</h1>
-        <p className="text-sm text-slate-400 mt-1">Fields are populated automatically by the AI assistant →</p>
+        <h1 className="text-xl font-bold text-slate-900 tracking-tight">AI-Powered HCP Interaction Manager</h1>
+        <p className="text-sm text-slate-400 mt-1">Capture healthcare professional interactions using structured forms and conversational AI.</p>
       </div>
 
       {/* Interaction Details Section */}
@@ -41,7 +41,7 @@ function InteractionForm() {
                 type="text"
                 value={formData.hcp_name}
                 readOnly
-                placeholder="Populated by AI..."
+                placeholder="Extracted from AI conversation..."
                 className={`w-full px-3.5 py-2.5 border border-slate-200 rounded-lg bg-slate-50/50 text-slate-900 text-sm placeholder:text-slate-300 focus:outline-none cursor-default transition-all ${formData.hcp_name ? 'border-blue-200 bg-blue-50/30' : ''}`}
               />
               {formData.hcp_name && (
@@ -133,7 +133,7 @@ function InteractionForm() {
         <div className="mb-6">
           <button className="flex items-center gap-1.5 text-xs text-blue-500 hover:text-blue-600 transition-colors font-medium">
             <Mic className="w-3.5 h-3.5" />
-            Summarize from Voice Note (Requires Consent)
+           Generate Interaction Summary from Voice Notes
           </button>
         </div>
       </div>
@@ -143,7 +143,7 @@ function InteractionForm() {
         <div className="mb-6 animate-fade-in-up">
           <div className="flex items-center gap-2 mb-3">
             <div className="w-1 h-5 bg-gradient-to-b from-emerald-500 to-teal-500 rounded-full"></div>
-            <h2 className="text-sm font-semibold text-slate-700 uppercase tracking-wider">Sentiment</h2>
+            <h2 className="text-sm font-semibold text-slate-700 uppercase tracking-wider"> HCP Engagement Sentiment</h2>
           </div>
           <div className="flex items-center gap-2">
             <TrendingUp className="w-4 h-4 text-slate-400" />
@@ -174,7 +174,7 @@ function InteractionForm() {
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-3">
           <div className="w-1 h-5 bg-gradient-to-b from-violet-500 to-purple-500 rounded-full"></div>
-          <h2 className="text-sm font-semibold text-slate-700 uppercase tracking-wider">Materials Shared</h2>
+          <h2 className="text-sm font-semibold text-slate-700 uppercase tracking-wider">Clinical Materials Shared</h2>
         </div>
 
         {formData.materials && formData.materials.length > 0 ? (
@@ -199,7 +199,7 @@ function InteractionForm() {
         <div className="mb-6 animate-fade-in-up">
           <div className="flex items-center gap-2 mb-3">
             <div className="w-1 h-5 bg-gradient-to-b from-sky-500 to-cyan-500 rounded-full"></div>
-            <h2 className="text-sm font-semibold text-slate-700 uppercase tracking-wider">Follow-up Actions</h2>
+            <h2 className="text-sm font-semibold text-slate-700 uppercase tracking-wider">Recommended Next Actions</h2>
           </div>
           <div className="text-sm text-slate-700 bg-sky-50/50 border border-sky-100 p-4 rounded-lg whitespace-pre-wrap leading-relaxed">
             {formData.follow_up}
