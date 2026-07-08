@@ -53,12 +53,6 @@ An intelligent CRM application designed for pharmaceutical representatives to ca
 
 [GitHub Repository](https://github.com/anisha12167/ai-crm-hcp)
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/anisha12167/ai-crm-hcp.git
-cd ai-crm-hcp
-
 ### 2. Database Setup
 ```bash
 # Create database (run in psql or pgAdmin)
@@ -91,7 +85,7 @@ npm run dev
 ```
 
 ### 5. Open the App
-Navigate to [ai-crm-hcp-delta.vercel.app](ai-crm-hcp-delta.vercel.app)
+Navigate to [AI CRM Demo](https://ai-crm-hcp-delta.vercel.app)
 
 ## LangGraph Agent Architecture
 
