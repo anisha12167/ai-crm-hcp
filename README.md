@@ -50,7 +50,7 @@ An intelligent CRM application designed for pharmaceutical representatives to ca
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/anisha12167/ai-crm-hcp]
+git clone [GitHub Repository](https://github.com/anisha12167/ai-crm-hcp)
 cd ai-crm-hcp
 ```
 
