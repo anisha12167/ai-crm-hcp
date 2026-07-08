@@ -49,10 +49,15 @@ An intelligent CRM application designed for pharmaceutical representatives to ca
 ## Setup Instructions
 
 ### 1. Clone the Repository
+### Repository
+
+[GitHub Repository](https://github.com/anisha12167/ai-crm-hcp)
+
+### Clone the Repository
+
 ```bash
-git clone :(https://github.com/anisha12167/ai-crm-hcp)
+git clone https://github.com/anisha12167/ai-crm-hcp.git
 cd ai-crm-hcp
-```
 
 ### 2. Database Setup
 ```bash
