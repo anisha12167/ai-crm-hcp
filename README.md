@@ -1,6 +1,6 @@
 # AI-First CRM — HCP Interaction Module
 
-An AI-powered CRM module for pharmaceutical field representatives to log interactions with Healthcare Professionals (HCPs) through a conversational AI assistant.
+An intelligent CRM application designed for pharmaceutical representatives to capture and organize interactions with Healthcare Professionals (HCPs) using natural language conversations and AI-driven information extraction.
 
 ## Architecture
 
@@ -50,7 +50,7 @@ An AI-powered CRM module for pharmaceutical field representatives to log interac
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Dacchu2004/ai-crm-hcp.git
+git clone [https://github.com/anisha12167/ai-crm-hcp](https://github.com/anisha12167/ai-crm-hcp)
 cd ai-crm-hcp
 ```
 
@@ -86,7 +86,7 @@ npm run dev
 ```
 
 ### 5. Open the App
-Navigate to http://localhost:5173
+Navigate to [ai-crm-hcp-delta.vercel.app](ai-crm-hcp-delta.vercel.app)
 
 ## LangGraph Agent Architecture
 
@@ -113,11 +113,11 @@ User Message → Agent (LLM) → Tool Decision
 
 Try these in the AI chat:
 ```
-"Today I met Dr. Sarah Smith and discussed Product X efficacy. Positive sentiment, shared brochures."
-"Change the HCP name to Dr. John Chen and sentiment to negative"
-"What follow-up actions should I take?"
-"Search for oncologists"
-"Summarize this interaction"
+"Met Dr Sharma regarding CardioX and discussed efficacy results and patient outcomes."
+"Update the interaction sentiment to neutral."
+"Suggest the next best follow-up action for this doctor."
+"Search for cardiologists in the database."
+"Generate a summary of this interaction."
 ```
 
 ## Project Structure
@@ -151,4 +151,11 @@ ai-crm-hcp/
 
 ## Author
 
-**Dharshan S** — Round 1 Assignment
+
+### Anisha Saini
+
+
+Computer Science Engineering Graduate |  ROUND-1
+
+
+Built as an AI-powered CRM solution demonstrating conversational AI, information extraction, and full-stack application deployment using modern web technologies.
